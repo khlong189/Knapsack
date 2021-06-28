@@ -41,14 +41,5 @@ def knapsack(W,wt,val,num):
             # its value is deducted 
             result = result - val[i - 1] 
             w = w - wt[i - 1] 
-#    return (pairList[m][n],m,n)
-#v = [ 60, 100, 120 ] 
-#w = [ 10, 20, 30 ] 
-#W = 50
 
-w = [1, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 7, 7, 8, 9, 10, 11, 15]
-v = [2, 2, 2, 3, 3, 3, 4, 5, 6, 6, 6,10, 11, 13, 12, 15, 11, 20]
-W = 30
-num = len(v) 
-      
-knapsack(W, w, v, num)
+          
